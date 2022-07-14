@@ -38,3 +38,5 @@ public class CreateMultidimentionArray {
         }
     }
 }
+//Time Complexity: O(n^2)
+//Auxiliary Space : O(1)
