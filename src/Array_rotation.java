@@ -24,7 +24,8 @@ public class Array_rotation {
 
          */
 
-        // Method - A Juggling Algorithm :
+        // Method-2 : A Juggling Algorithm :-
+
         void lefRotate(int arr[], int d, int n)
         {
             // To handle if d>=n
@@ -73,8 +74,8 @@ public class Array_rotation {
         // Driver Code
         public static void main(String[] args) {
              Array_rotation rotate = new Array_rotation();
-             int arr[] = {1,2,3,4,5,6,7};
-             rotate.lefRotate(arr, 2,7);
-             rotate.printArray(arr,7);
+             int arr[] = {1,2,3,4,5,6,7,8,9,10,11,12,13};
+             rotate.lefRotate(arr, 15,13);
+             rotate.printArray(arr,13);
         }
 }
